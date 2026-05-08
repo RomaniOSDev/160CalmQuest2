@@ -3,33 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		306975D32FAE782400EF45FD /* AchievementBannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975932FAE782400EF45FD /* AchievementBannerPresenter.swift */; };
+		306975D42FAE782400EF45FD /* AppCellDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975942FAE782400EF45FD /* AppCellDesign.swift */; };
+		306975D52FAE782400EF45FD /* AppVisualTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975952FAE782400EF45FD /* AppVisualTheme.swift */; };
+		306975D62FAE782400EF45FD /* LayeredBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975962FAE782400EF45FD /* LayeredBackground.swift */; };
+		306975D72FAE782400EF45FD /* MainTabBarLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975972FAE782400EF45FD /* MainTabBarLayout.swift */; };
+		306975D82FAE782400EF45FD /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975982FAE782400EF45FD /* ShakeEffect.swift */; };
+		306975D92FAE782400EF45FD /* SuccessFlashOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975992FAE782400EF45FD /* SuccessFlashOverlay.swift */; };
+		306975DA2FAE782400EF45FD /* ActivityShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069759B2FAE782400EF45FD /* ActivityShareView.swift */; };
+		306975DB2FAE782400EF45FD /* DataExportBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069759C2FAE782400EF45FD /* DataExportBuilder.swift */; };
+		306975DC2FAE782400EF45FD /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069759E2FAE782400EF45FD /* AppColors.swift */; };
+		306975DD2FAE782400EF45FD /* NotificationName+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069759F2FAE782400EF45FD /* NotificationName+App.swift */; };
+		306975DE2FAE782400EF45FD /* AppFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A12FAE782400EF45FD /* AppFeedback.swift */; };
+		306975DF2FAE782400EF45FD /* AppExternalURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A32FAE782400EF45FD /* AppExternalURL.swift */; };
+		306975E02FAE782400EF45FD /* PrivacyPolicyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A42FAE782400EF45FD /* PrivacyPolicyText.swift */; };
+		306975E12FAE782400EF45FD /* AchievementDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A62FAE782400EF45FD /* AchievementDefinitions.swift */; };
+		306975E22FAE782400EF45FD /* HabitModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A72FAE782400EF45FD /* HabitModels.swift */; };
+		306975E32FAE782400EF45FD /* TaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975A82FAE782400EF45FD /* TaskModels.swift */; };
+		306975E42FAE782400EF45FD /* TaskReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975AA2FAE782400EF45FD /* TaskReminderScheduler.swift */; };
+		306975E52FAE782400EF45FD /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975AC2FAE782400EF45FD /* AppState.swift */; };
+		306975E62FAE782400EF45FD /* FocusTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975AF2FAE782400EF45FD /* FocusTimerView.swift */; };
+		306975E72FAE782400EF45FD /* FocusTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B02FAE782400EF45FD /* FocusTimerViewModel.swift */; };
+		306975E82FAE782400EF45FD /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B22FAE782400EF45FD /* HabitsView.swift */; };
+		306975E92FAE782400EF45FD /* HabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B32FAE782400EF45FD /* HabitsViewModel.swift */; };
+		306975EA2FAE782400EF45FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B52FAE782400EF45FD /* HomeView.swift */; };
+		306975EB2FAE782400EF45FD /* FocusHabitsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B72FAE782400EF45FD /* FocusHabitsContainerView.swift */; };
+		306975EC2FAE782400EF45FD /* MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975B92FAE782400EF45FD /* MainShellView.swift */; };
+		306975ED2FAE782400EF45FD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975BB2FAE782400EF45FD /* OnboardingView.swift */; };
+		306975EE2FAE782400EF45FD /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975BD2FAE782400EF45FD /* PrivacyPolicyView.swift */; };
+		306975EF2FAE782400EF45FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975BE2FAE782400EF45FD /* SettingsView.swift */; };
+		306975F02FAE782400EF45FD /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975C02FAE782400EF45FD /* AchievementsView.swift */; };
+		306975F12FAE782400EF45FD /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975C22FAE782400EF45FD /* TasksView.swift */; };
+		306975F22FAE782400EF45FD /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975C32FAE782400EF45FD /* TasksViewModel.swift */; };
+		306975F32FAE782400EF45FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975C72FAE782400EF45FD /* AppDelegate.swift */; };
+		306975F42FAE782400EF45FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975C92FAE782400EF45FD /* ContentView.swift */; };
+		306975F52FAE782400EF45FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975D02FAE782400EF45FD /* SceneDelegate.swift */; };
+		306975F62FAE782400EF45FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306975D12FAE782400EF45FD /* ViewController.swift */; };
+		306975F72FAE782400EF45FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306975C82FAE782400EF45FD /* Assets.xcassets */; };
+		306975F92FAE782400EF45FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306975CC2FAE782400EF45FD /* LaunchScreen.storyboard */; };
+		306975FA2FAE782400EF45FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306975CE2FAE782400EF45FD /* Main.storyboard */; };
+		306975FB2FAE782400EF45FD /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 306975CF2FAE782400EF45FD /* privacy_policy.md */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		306973FE2FAE61CD00EF45FD /* 160CalmQuest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 160CalmQuest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306975932FAE782400EF45FD /* AchievementBannerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerPresenter.swift; sourceTree = "<group>"; };
+		306975942FAE782400EF45FD /* AppCellDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCellDesign.swift; sourceTree = "<group>"; };
+		306975952FAE782400EF45FD /* AppVisualTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualTheme.swift; sourceTree = "<group>"; };
+		306975962FAE782400EF45FD /* LayeredBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredBackground.swift; sourceTree = "<group>"; };
+		306975972FAE782400EF45FD /* MainTabBarLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarLayout.swift; sourceTree = "<group>"; };
+		306975982FAE782400EF45FD /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		306975992FAE782400EF45FD /* SuccessFlashOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessFlashOverlay.swift; sourceTree = "<group>"; };
+		3069759B2FAE782400EF45FD /* ActivityShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityShareView.swift; sourceTree = "<group>"; };
+		3069759C2FAE782400EF45FD /* DataExportBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExportBuilder.swift; sourceTree = "<group>"; };
+		3069759E2FAE782400EF45FD /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		3069759F2FAE782400EF45FD /* NotificationName+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+App.swift"; sourceTree = "<group>"; };
+		306975A12FAE782400EF45FD /* AppFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeedback.swift; sourceTree = "<group>"; };
+		306975A32FAE782400EF45FD /* AppExternalURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalURL.swift; sourceTree = "<group>"; };
+		306975A42FAE782400EF45FD /* PrivacyPolicyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyText.swift; sourceTree = "<group>"; };
+		306975A62FAE782400EF45FD /* AchievementDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDefinitions.swift; sourceTree = "<group>"; };
+		306975A72FAE782400EF45FD /* HabitModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModels.swift; sourceTree = "<group>"; };
+		306975A82FAE782400EF45FD /* TaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModels.swift; sourceTree = "<group>"; };
+		306975AA2FAE782400EF45FD /* TaskReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReminderScheduler.swift; sourceTree = "<group>"; };
+		306975AC2FAE782400EF45FD /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		306975AF2FAE782400EF45FD /* FocusTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerView.swift; sourceTree = "<group>"; };
+		306975B02FAE782400EF45FD /* FocusTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerViewModel.swift; sourceTree = "<group>"; };
+		306975B22FAE782400EF45FD /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		306975B32FAE782400EF45FD /* HabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewModel.swift; sourceTree = "<group>"; };
+		306975B52FAE782400EF45FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		306975B72FAE782400EF45FD /* FocusHabitsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusHabitsContainerView.swift; sourceTree = "<group>"; };
+		306975B92FAE782400EF45FD /* MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainShellView.swift; sourceTree = "<group>"; };
+		306975BB2FAE782400EF45FD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		306975BD2FAE782400EF45FD /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		306975BE2FAE782400EF45FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		306975C02FAE782400EF45FD /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		306975C22FAE782400EF45FD /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		306975C32FAE782400EF45FD /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
+		306975C72FAE782400EF45FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306975C82FAE782400EF45FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306975C92FAE782400EF45FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306975CA2FAE782400EF45FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306975CB2FAE782400EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306975CD2FAE782400EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306975CF2FAE782400EF45FD /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		306975D02FAE782400EF45FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		306975D12FAE782400EF45FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A6E35324C7F2E7653477E58 /* Pods_160CalmQuest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_160CalmQuest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9F6A9B6BD82DCA7AE45491 /* Pods-160CalmQuest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-160CalmQuest2.release.xcconfig"; path = "Target Support Files/Pods-160CalmQuest2/Pods-160CalmQuest2.release.xcconfig"; sourceTree = "<group>"; };
+		D0F84FD9DA6FF25BABDDBB81 /* Pods-160CalmQuest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-160CalmQuest2.debug.xcconfig"; path = "Target Support Files/Pods-160CalmQuest2/Pods-160CalmQuest2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		306974102FAE61CE00EF45FD /* Exceptions for "160CalmQuest2" folder in "160CalmQuest2" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 306973FD2FAE61CD00EF45FD /* 160CalmQuest2 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		306974002FAE61CD00EF45FD /* 160CalmQuest2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				306974102FAE61CE00EF45FD /* Exceptions for "160CalmQuest2" folder in "160CalmQuest2" target */,
-			);
-			path = 160CalmQuest2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		306973FB2FAE61CD00EF45FD /* Frameworks */ = {
@@ -45,8 +111,10 @@
 		306973F52FAE61CD00EF45FD = {
 			isa = PBXGroup;
 			children = (
-				306974002FAE61CD00EF45FD /* 160CalmQuest2 */,
+				306975D22FAE782400EF45FD /* 160CalmQuest2 */,
 				306973FF2FAE61CD00EF45FD /* Products */,
+				9C20C53764F1E2E432B5C2E9 /* Pods */,
+				39FA3717BB48CFA04BB98299 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +126,231 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3069759A2FAE782400EF45FD /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				306975932FAE782400EF45FD /* AchievementBannerPresenter.swift */,
+				306975942FAE782400EF45FD /* AppCellDesign.swift */,
+				306975952FAE782400EF45FD /* AppVisualTheme.swift */,
+				306975962FAE782400EF45FD /* LayeredBackground.swift */,
+				306975972FAE782400EF45FD /* MainTabBarLayout.swift */,
+				306975982FAE782400EF45FD /* ShakeEffect.swift */,
+				306975992FAE782400EF45FD /* SuccessFlashOverlay.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3069759D2FAE782400EF45FD /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				3069759B2FAE782400EF45FD /* ActivityShareView.swift */,
+				3069759C2FAE782400EF45FD /* DataExportBuilder.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		306975A02FAE782400EF45FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3069759E2FAE782400EF45FD /* AppColors.swift */,
+				3069759F2FAE782400EF45FD /* NotificationName+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		306975A22FAE782400EF45FD /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				306975A12FAE782400EF45FD /* AppFeedback.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		306975A52FAE782400EF45FD /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				306975A32FAE782400EF45FD /* AppExternalURL.swift */,
+				306975A42FAE782400EF45FD /* PrivacyPolicyText.swift */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		306975A92FAE782400EF45FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				306975A62FAE782400EF45FD /* AchievementDefinitions.swift */,
+				306975A72FAE782400EF45FD /* HabitModels.swift */,
+				306975A82FAE782400EF45FD /* TaskModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306975AB2FAE782400EF45FD /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				306975AA2FAE782400EF45FD /* TaskReminderScheduler.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		306975AD2FAE782400EF45FD /* State */ = {
+			isa = PBXGroup;
+			children = (
+				306975AC2FAE782400EF45FD /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		306975AE2FAE782400EF45FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3069759A2FAE782400EF45FD /* Design */,
+				3069759D2FAE782400EF45FD /* Export */,
+				306975A02FAE782400EF45FD /* Extensions */,
+				306975A22FAE782400EF45FD /* Haptics */,
+				306975A52FAE782400EF45FD /* Legal */,
+				306975A92FAE782400EF45FD /* Models */,
+				306975AB2FAE782400EF45FD /* Notifications */,
+				306975AD2FAE782400EF45FD /* State */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		306975B12FAE782400EF45FD /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				306975AF2FAE782400EF45FD /* FocusTimerView.swift */,
+				306975B02FAE782400EF45FD /* FocusTimerViewModel.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		306975B42FAE782400EF45FD /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				306975B22FAE782400EF45FD /* HabitsView.swift */,
+				306975B32FAE782400EF45FD /* HabitsViewModel.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		306975B62FAE782400EF45FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				306975B52FAE782400EF45FD /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		306975B82FAE782400EF45FD /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				306975B72FAE782400EF45FD /* FocusHabitsContainerView.swift */,
+			);
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		306975BA2FAE782400EF45FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				306975B92FAE782400EF45FD /* MainShellView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		306975BC2FAE782400EF45FD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				306975BB2FAE782400EF45FD /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		306975BF2FAE782400EF45FD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				306975BD2FAE782400EF45FD /* PrivacyPolicyView.swift */,
+				306975BE2FAE782400EF45FD /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		306975C12FAE782400EF45FD /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				306975C02FAE782400EF45FD /* AchievementsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		306975C42FAE782400EF45FD /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				306975C22FAE782400EF45FD /* TasksView.swift */,
+				306975C32FAE782400EF45FD /* TasksViewModel.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		306975C52FAE782400EF45FD /* Today */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		306975C62FAE782400EF45FD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				306975B12FAE782400EF45FD /* Focus */,
+				306975B42FAE782400EF45FD /* Habits */,
+				306975B62FAE782400EF45FD /* Home */,
+				306975B82FAE782400EF45FD /* Hub */,
+				306975BA2FAE782400EF45FD /* Main */,
+				306975BC2FAE782400EF45FD /* Onboarding */,
+				306975BF2FAE782400EF45FD /* Settings */,
+				306975C12FAE782400EF45FD /* Stats */,
+				306975C42FAE782400EF45FD /* Tasks */,
+				306975C52FAE782400EF45FD /* Today */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		306975D22FAE782400EF45FD /* 160CalmQuest2 */ = {
+			isa = PBXGroup;
+			children = (
+				306975AE2FAE782400EF45FD /* Core */,
+				306975C62FAE782400EF45FD /* Features */,
+				306975C72FAE782400EF45FD /* AppDelegate.swift */,
+				306975C82FAE782400EF45FD /* Assets.xcassets */,
+				306975C92FAE782400EF45FD /* ContentView.swift */,
+				306975CA2FAE782400EF45FD /* Info.plist */,
+				306975CC2FAE782400EF45FD /* LaunchScreen.storyboard */,
+				306975CE2FAE782400EF45FD /* Main.storyboard */,
+				306975CF2FAE782400EF45FD /* privacy_policy.md */,
+				306975D02FAE782400EF45FD /* SceneDelegate.swift */,
+				306975D12FAE782400EF45FD /* ViewController.swift */,
+			);
+			path = 160CalmQuest2;
+			sourceTree = "<group>";
+		};
+		39FA3717BB48CFA04BB98299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E35324C7F2E7653477E58 /* Pods_160CalmQuest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C20C53764F1E2E432B5C2E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F84FD9DA6FF25BABDDBB81 /* Pods-160CalmQuest2.debug.xcconfig */,
+				BB9F6A9B6BD82DCA7AE45491 /* Pods-160CalmQuest2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +358,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 306974112FAE61CE00EF45FD /* Build configuration list for PBXNativeTarget "160CalmQuest2" */;
 			buildPhases = (
+				C801E3269449FA1AF396C3E3 /* [CP] Check Pods Manifest.lock */,
 				306973FA2FAE61CD00EF45FD /* Sources */,
 				306973FB2FAE61CD00EF45FD /* Frameworks */,
 				306973FC2FAE61CD00EF45FD /* Resources */,
@@ -73,12 +367,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				306974002FAE61CD00EF45FD /* 160CalmQuest2 */,
-			);
 			name = 160CalmQuest2;
-			packageProductDependencies = (
-			);
 			productName = 160CalmQuest2;
 			productReference = 306973FE2FAE61CD00EF45FD /* 160CalmQuest2.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +388,7 @@
 				};
 			};
 			buildConfigurationList = 306973F92FAE61CD00EF45FD /* Build configuration list for PBXProject "160CalmQuest2" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +396,6 @@
 				Base,
 			);
 			mainGroup = 306973F52FAE61CD00EF45FD;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 306973FF2FAE61CD00EF45FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +410,109 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306975F72FAE782400EF45FD /* Assets.xcassets in Resources */,
+				306975F92FAE782400EF45FD /* LaunchScreen.storyboard in Resources */,
+				306975FA2FAE782400EF45FD /* Main.storyboard in Resources */,
+				306975FB2FAE782400EF45FD /* privacy_policy.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C801E3269449FA1AF396C3E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-160CalmQuest2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		306973FA2FAE61CD00EF45FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306975D32FAE782400EF45FD /* AchievementBannerPresenter.swift in Sources */,
+				306975D42FAE782400EF45FD /* AppCellDesign.swift in Sources */,
+				306975D52FAE782400EF45FD /* AppVisualTheme.swift in Sources */,
+				306975D62FAE782400EF45FD /* LayeredBackground.swift in Sources */,
+				306975D72FAE782400EF45FD /* MainTabBarLayout.swift in Sources */,
+				306975D82FAE782400EF45FD /* ShakeEffect.swift in Sources */,
+				306975D92FAE782400EF45FD /* SuccessFlashOverlay.swift in Sources */,
+				306975DA2FAE782400EF45FD /* ActivityShareView.swift in Sources */,
+				306975DB2FAE782400EF45FD /* DataExportBuilder.swift in Sources */,
+				306975DC2FAE782400EF45FD /* AppColors.swift in Sources */,
+				306975DD2FAE782400EF45FD /* NotificationName+App.swift in Sources */,
+				306975DE2FAE782400EF45FD /* AppFeedback.swift in Sources */,
+				306975DF2FAE782400EF45FD /* AppExternalURL.swift in Sources */,
+				306975E02FAE782400EF45FD /* PrivacyPolicyText.swift in Sources */,
+				306975E12FAE782400EF45FD /* AchievementDefinitions.swift in Sources */,
+				306975E22FAE782400EF45FD /* HabitModels.swift in Sources */,
+				306975E32FAE782400EF45FD /* TaskModels.swift in Sources */,
+				306975E42FAE782400EF45FD /* TaskReminderScheduler.swift in Sources */,
+				306975E52FAE782400EF45FD /* AppState.swift in Sources */,
+				306975E62FAE782400EF45FD /* FocusTimerView.swift in Sources */,
+				306975E72FAE782400EF45FD /* FocusTimerViewModel.swift in Sources */,
+				306975E82FAE782400EF45FD /* HabitsView.swift in Sources */,
+				306975E92FAE782400EF45FD /* HabitsViewModel.swift in Sources */,
+				306975EA2FAE782400EF45FD /* HomeView.swift in Sources */,
+				306975EB2FAE782400EF45FD /* FocusHabitsContainerView.swift in Sources */,
+				306975EC2FAE782400EF45FD /* MainShellView.swift in Sources */,
+				306975ED2FAE782400EF45FD /* OnboardingView.swift in Sources */,
+				306975EE2FAE782400EF45FD /* PrivacyPolicyView.swift in Sources */,
+				306975EF2FAE782400EF45FD /* SettingsView.swift in Sources */,
+				306975F02FAE782400EF45FD /* AchievementsView.swift in Sources */,
+				306975F12FAE782400EF45FD /* TasksView.swift in Sources */,
+				306975F22FAE782400EF45FD /* TasksViewModel.swift in Sources */,
+				306975F32FAE782400EF45FD /* AppDelegate.swift in Sources */,
+				306975F42FAE782400EF45FD /* ContentView.swift in Sources */,
+				306975F52FAE782400EF45FD /* SceneDelegate.swift in Sources */,
+				306975F62FAE782400EF45FD /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		306975CC2FAE782400EF45FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306975CB2FAE782400EF45FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		306975CE2FAE782400EF45FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306975CD2FAE782400EF45FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		306974122FAE61CE00EF45FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F84FD9DA6FF25BABDDBB81 /* Pods-160CalmQuest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +520,40 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 160CalmQuest2/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-60CalmQuest2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sar.c9lmq83st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		306974132FAE61CE00EF45FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9F6A9B6BD82DCA7AE45491 /* Pods-160CalmQuest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +561,34 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 160CalmQuest2/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-60CalmQuest2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sar.c9lmq83st;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -204,7 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -267,7 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
