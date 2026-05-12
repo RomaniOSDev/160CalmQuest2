@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "160CalmQuest2.xcworkspace"
           XCODE_SCHEME: "160CalmQuest2"
-          BUNDLE_ID: "com.sar.c9lmq83st"
+          BUNDLE_ID: "com.pet.cr7s6l1thn3tw0rk"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
